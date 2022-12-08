@@ -5,4 +5,4 @@ resources:
 images:
 - name: docker.io/nightmar39/flask-bg-app
   newName: docker.io/salesdemosa/flask-cz
-  newTag: 499bd9e
+  newTag: 8093de0
