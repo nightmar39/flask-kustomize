@@ -14,9 +14,6 @@ spec:
     name: in-cluster
     namespace: flask-dev
   syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
     syncOptions:
       - PrunePropagationPolicy=foreground
       - Replace=false
