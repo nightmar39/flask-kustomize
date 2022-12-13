@@ -8,7 +8,7 @@ spec:
   project: default
   source:
     path: k8s/overlays/dev
-    repoURL: https://github.com/nightmar39/flask-kustomize.git
+    repoURL: https://github.com/codefresh-contrib/flask-kustomize.git
     targetRevision: HEAD
   destination:
     name: in-cluster
